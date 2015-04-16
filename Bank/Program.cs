@@ -19,6 +19,7 @@ namespace Bank
             //                orderby klant.Voornaam
             //                select klant;
             //    foreach (var klant in query)
+            //
             //    {
             //        Console.WriteLine("{0}: {1}", klant.KlantNr, klant.Voornaam);
             //    }
