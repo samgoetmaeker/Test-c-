@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstEDM", "FirstEDM\FirstEDM.csproj", "{B24ECC70-FEDA-45CB-ADED-571720CC0338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cursus", "Cursus", "{BBDF57D6-19BE-4EAB-BBC0-8E65DC654B73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Taken", "Taken", "{5E58BCBC-AA6D-4BB7-BD34-42FC84FC238D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{AB085147-B050-48F5-856B-0088FB53BB19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B24ECC70-FEDA-45CB-ADED-571720CC0338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24ECC70-FEDA-45CB-ADED-571720CC0338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24ECC70-FEDA-45CB-ADED-571720CC0338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24ECC70-FEDA-45CB-ADED-571720CC0338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB085147-B050-48F5-856B-0088FB53BB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB085147-B050-48F5-856B-0088FB53BB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB085147-B050-48F5-856B-0088FB53BB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB085147-B050-48F5-856B-0088FB53BB19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B24ECC70-FEDA-45CB-ADED-571720CC0338} = {BBDF57D6-19BE-4EAB-BBC0-8E65DC654B73}
+		{AB085147-B050-48F5-856B-0088FB53BB19} = {5E58BCBC-AA6D-4BB7-BD34-42FC84FC238D}
+	EndGlobalSection
+EndGlobal

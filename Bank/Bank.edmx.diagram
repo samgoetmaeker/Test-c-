@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb88123b177a4c6ea467c7b5d78359fc" Name="Diagram1">
+        <EntityTypeShape EntityType="BankModel.Klant" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BankModel.Rekening" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="BankModel.FK__Rekeninge__Klant__1273C1CD" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BankModel.Personeelslid" Width="1.5" PointX="5.375" PointY="0.875" />
+        <AssociationConnector Association="BankModel.FK__Personeel__Manag__239E4DCF" />
+        <EntityTypeShape EntityType="BankModel.Spaarrekening" Width="1.5" PointX="4.5" PointY="4.375" />
+        <InheritanceConnector EntityType="BankModel.Spaarrekening" />
+        <EntityTypeShape EntityType="BankModel.Zichtrekening" Width="1.5" PointX="1.75" PointY="4.625" />
+        <InheritanceConnector EntityType="BankModel.Zichtrekening" />
+        <EntityTypeShape EntityType="BankModel.TotaleSaldoPerKlant" Width="2.125" PointX="6.625" PointY="3.875" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
